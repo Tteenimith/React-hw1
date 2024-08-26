@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.pics {
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.info h3 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+
+.info p {
+    color: lightgray;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px ;
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.13);
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+
+
+}
+
+.namebox h1{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.namebox h4{
+    color: lightgray;
+}
